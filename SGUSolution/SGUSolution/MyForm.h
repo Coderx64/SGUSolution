@@ -48,12 +48,38 @@ namespace Task1 {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->components = gcnew System::ComponentModel::Container();
-			this->Size = System::Drawing::Size(300,300);
-			this->Text = L"MyForm";
-			this->Padding = System::Windows::Forms::Padding(0);
+			this->SuspendLayout();
+			// 
+			// MyForm
+			// 
+			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->ClientSize = System::Drawing::Size(284, 261);
+			this->Name = L"MyForm";
+			this->Text = L"MyForm";
+			this->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &MyForm::MyForm_Paint);
+			this->Resize += gcnew System::EventHandler(this, &MyForm::MyForm_Resize);
+			this->ResumeLayout(false);
+
 		}
 #pragma endregion
+	private: System::Void MyForm_Paint(System::Object^  sender, System::Windows::Forms::PaintEventArgs^  e) {
+		Graphics^ DrawingContext;
+		DrawingContext = (*e).Graphics;
+		DrawingContext->Clear(Color::Aquamarine);
+		Rectangle rect = this->ClientRectangle;
+
+		Pen^ RedPen = gcnew Pen(Color::Red,5);
+		Pen^ BluePen = gcnew Pen(Color::Blue,10);
+		System::Drawing::Font^ SomeFont = gcnew System::Drawing::Font("Arial", 10);
+
+		DrawingContext->DrawLine(RedPen, 0, rect.Height, rect.Width, 0 );
+		DrawingContext->DrawLine(BluePen, rect.Width, rect.Height, 0, 0);
+		DrawingContext->DrawString("Hello world!", SomeFont, gcnew SolidBrush(Color::Black), 40, 100);
+	}
+			 
+	private: System::Void MyForm_Resize(System::Object^  sender, System::EventArgs^  e) {
+		this->Refresh();
+	}
 	};
 }
