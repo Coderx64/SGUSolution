@@ -1,0 +1,33 @@
+﻿Сборка начата 07.12.2014 12:35:06.
+     1>Проект "C:\Users\Coderx64\Dropbox\УНИВЕР\КомпГраф\Coding\SGUSolution\SGUSolution\Task3\TaskN.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib TaskN.cpp
+         TaskN.cpp
+     1>c:\users\coderx64\dropbox\универ\компграф\coding\sgusolution\sgusolution\task3\Form1.h(211): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\coderx64\dropbox\универ\компграф\coding\sgusolution\sgusolution\task3\Form1.h(253): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\coderx64\dropbox\универ\компграф\coding\sgusolution\sgusolution\task3\Form1.h(256): warning C4305: аргумент: усечение из "double" к "float"
+     1>c:\users\coderx64\dropbox\универ\компграф\coding\sgusolution\sgusolution\task3\Form1.h(259): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\coderx64\dropbox\универ\компграф\coding\sgusolution\sgusolution\task3\Form1.h(262): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\coderx64\dropbox\универ\компграф\coding\sgusolution\sgusolution\task3\Form1.h(265): warning C4305: аргумент: усечение из "double" к "float"
+     1>c:\users\coderx64\dropbox\универ\компграф\coding\sgusolution\sgusolution\task3\Form1.h(268): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\coderx64\dropbox\универ\компграф\coding\sgusolution\sgusolution\task3\Form1.h(271): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\coderx64\dropbox\универ\компграф\coding\sgusolution\sgusolution\task3\Form1.h(274): warning C4305: аргумент: усечение из "double" к "float"
+     1>c:\users\coderx64\dropbox\универ\компграф\coding\sgusolution\sgusolution\task3\Form1.h(277): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\coderx64\dropbox\универ\компграф\coding\sgusolution\sgusolution\task3\Form1.h(280): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\coderx64\dropbox\универ\компграф\coding\sgusolution\sgusolution\task3\Form1.h(283): warning C4305: аргумент: усечение из "double" к "float"
+     1>c:\users\coderx64\dropbox\универ\компграф\coding\sgusolution\sgusolution\task3\Form1.h(286): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\coderx64\dropbox\универ\компграф\coding\sgusolution\sgusolution\task3\Form1.h(293): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\coderx64\dropbox\универ\компграф\coding\sgusolution\sgusolution\task3\Form1.h(300): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\coderx64\dropbox\универ\компграф\coding\sgusolution\sgusolution\task3\Form1.h(303): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\coderx64\dropbox\универ\компграф\coding\sgusolution\sgusolution\task3\Form1.h(310): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Coderx64\Dropbox\УНИВЕР\КомпГраф\Coding\SGUSolution\SGUSolution\Debug\Task3.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\TaskN.Form1.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Coderx64\Dropbox\УНИВЕР\КомпГраф\Coding\SGUSolution\SGUSolution\Debug\Task3.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\matrix.obj
+         Debug\TaskN.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         TaskN.vcxproj -> C:\Users\Coderx64\Dropbox\УНИВЕР\КомпГраф\Coding\SGUSolution\SGUSolution\Debug\Task3.exe
+     1>Сборка проекта "C:\Users\Coderx64\Dropbox\УНИВЕР\КомпГраф\Coding\SGUSolution\SGUSolution\Task3\TaskN.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.32
